@@ -1,1 +1,6 @@
-https://www.kaggle.com/code/lohitha17/knn-without-scikit-learn
+//https://www.kaggle.com/code/lohitha17/knn-without-scikit-learn
+import numpy as np
+import pandas as pd
+import math
+df=pd.read_table('../input/fruits-with-colors-dataset/fruit_data_with_colors.txt')
+df.head()
